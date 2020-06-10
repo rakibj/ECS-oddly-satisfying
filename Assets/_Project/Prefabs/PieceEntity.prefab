@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6828104061521854861}
   - component: {fileID: 6828104061521854850}
   - component: {fileID: 422333904}
+  - component: {fileID: 2737532565110390253}
   m_Layer: 8
   m_Name: PieceEntity
   m_TagString: Piece
@@ -230,5 +231,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab3187aa32fffd34badb6e269070bcc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TriggerForce: 0
+  TriggerOn: 0
+  TriggerForce:
+    x: 0
+    y: 5
+    z: 0
   PhysicsOn: 0
+  PhysicsForce:
+    x: 0
+    y: 0
+    z: -0.5
+--- !u!114 &2737532565110390253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828104061521854851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46873e89250fad4c8d39a40be91eb38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RunTimer: 0
+  TimeToLive: 2

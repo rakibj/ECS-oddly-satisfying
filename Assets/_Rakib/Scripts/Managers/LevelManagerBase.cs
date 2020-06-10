@@ -13,9 +13,9 @@ namespace Rakib
         
         [Tooltip("Used to automatically fire LevelStart Signal")]
         [SerializeField] private bool testingMode = false;
-        private GameState m_gameState;
+        [SerializeField] private GameState m_gameState;
         
-        protected virtual void Start()
+        protected virtual void Awake()
         {
             LevelLoad();
         }

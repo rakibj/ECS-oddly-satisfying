@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Raisa IT\.Rider2019.2\config\scratches" t="IncludeRecursive" />
@@ -10,20 +10,36 @@
       <e p="Assets" t="Include">
         <e p="_Project" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Core" t="Include">
+              <e p="ECSManager.cs" t="Include" />
+              <e p="EffectsManager.cs" t="Include" />
+              <e p="LevelManager.cs" t="Include" />
+            </e>
             <e p="ECS" t="Include">
-              <e p="Core" t="Include">
-                <e p="ECSManager.cs" t="Include" />
+              <e p="Authoring" t="Include">
+                <e p="LeaderAuthoring.cs" t="Include" />
               </e>
               <e p="Data" t="Include">
                 <e p="ObstacleData.cs" t="Include" />
                 <e p="PieceData.cs" t="Include" />
                 <e p="PlayerData.cs" t="Include" />
+                <e p="TimedDestroyData.cs" t="Include" />
               </e>
               <e p="system" t="Include">
                 <e p="PieceSystem.cs" t="Include" />
                 <e p="PlayerCollisionSystem.cs" t="Include" />
                 <e p="PlayerMoveSystem.cs" t="Include" />
+                <e p="TimedDestroySystem.cs" t="Include" />
               </e>
+            </e>
+            <e p="Helper" t="Include">
+              <e p="FollowEntity.cs" t="Include" />
+            </e>
+            <e p="Installers" t="Include">
+              <e p="LevelInstaller.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="LevelUI.cs" t="Include" />
             </e>
           </e>
           <e p="Shaders" t="Include">
@@ -482,7 +498,6 @@
               <e p="GameConfig.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
               <e p="GameSignals.cs" t="Include" />
-              <e p="HapticsManager.cs" t="Include" />
               <e p="LevelLoader.cs" t="Include" />
               <e p="LevelManagerBase.cs" t="Include" />
               <e p="LevelSignals.cs" t="Include" />
@@ -499,6 +514,34 @@
           <e p="Scripts" t="Include">
             <e p="MeshToLevel.cs" t="Include" />
             <e p="TextureToLevel.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>

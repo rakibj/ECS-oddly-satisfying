@@ -48,9 +48,9 @@ namespace Rakib
         {
 //            if(level == -1)
 //                GameAnalytics.NewProgressionEvent (GAProgressionStatus.Complete, level.ToString());
-//            else
-//                GameAnalytics.NewProgressionEvent (GAProgressionStatus.Complete, level.ToString(), score);
-        }
+         //            else
+         //                GameAnalytics.NewProgressionEvent (GAProgressionStatus.Complete, level.ToString(), score);
+                 }
 
         
     }

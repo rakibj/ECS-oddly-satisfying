@@ -7,4 +7,5 @@ namespace Rakib
     public class GameSignals
     {
     }
+    public class PieceCollisionSignal{}
 }
