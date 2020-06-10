@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Raisa IT\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Raisa IT\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Raisa IT\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_ZombieTowerDefence.-497413067.00" t="ExcludeRecursive" />
+    <e p="E:\Projects\ZombieTowerDefence" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Core" t="Include">
+            <e p="ECSManager.cs" t="Include" />
+            <e p="GameDataManager.cs" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="BloodData.cs" t="Include" />
+            <e p="TankData.cs" t="Include" />
+            <e p="TimedDestroyData.cs" t="Include" />
+            <e p="ZombieData.cs" t="Include" />
+          </e>
+          <e p="Job" t="Include">
+            <e p="PointDistanceHitJob.cs" t="Include" />
+            <e p="RaycastHitJob.cs" t="Include" />
+          </e>
+          <e p="system" t="Include">
+            <e p="BloodSystem.cs" t="Include" />
+            <e p="TankControllerSystem.cs" t="Include" />
+            <e p="TimedDestroySystem.cs" t="Include" />
+            <e p="ZombieDestroySystem.cs" t="Include" />
+            <e p="ZombieMoveSystem.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="ZombieTowerDefence.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
