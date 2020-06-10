@@ -73,8 +73,8 @@ namespace OddlySatisfying
 //                    
 //                    translation.Value += new float3(-sideMove,0,0);
 
-                    physicsVelocity.Linear = new float3(m_moveDirection.x, m_moveDirection.y, m_moveDirection.z) * -10f;
-                    rotation.Value = math.mul(rotation.Value, quaternion.RotateY(2));
+                    physicsVelocity.Linear = new float3(m_moveDirection.x, m_moveDirection.y, m_moveDirection.z) * -1 * playerData.MoveSensitivity;
+                    rotation.Value = math.mul(rotation.Value, quaternion.AxisAngle(new float3(0,1,0), playerData.RotationSpeed * dt));
                     //scale.Value += new float3(-sideMove,0,0);
                 })
                 .Run();

@@ -28618,11 +28618,11 @@ MonoBehaviour:
   m_ShapeType: 0
   m_PrimitiveCenter:
     x: 0
-    y: 0
+    y: -0.10999996
     z: 0
   m_PrimitiveSize:
     x: 2.86
-    y: 0.03606156
+    y: 0.03606157
     z: 0.45234805
   m_PrimitiveOrientation:
     Value:
@@ -28643,7 +28643,7 @@ MonoBehaviour:
   m_MinimumSkinnedVertexWeight: 0.1
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.042899996
-    m_BevelRadius: 0.01803078
+    m_BevelRadius: 0.0036061571
     m_MinimumAngle: 2.5000002
   m_CustomMesh: {fileID: 0}
   m_ForceUnique: 0
@@ -28703,6 +28703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8072826cb046e64bbe1860bf201474b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RotationSpeed: 30
+  MoveSensitivity: 10
   Death: 0
 --- !u!1001 &1681167222
 PrefabInstance:
